@@ -517,31 +517,31 @@ def gru_predict(x):
             print(f'当前的人名是：{x}, 预测值是：{tempv:.2f}, 预测真实国家是：{str_class}')
 
 if __name__ == '__main__':
-    # my_list_x,my_list_y = read_data(filepath='E:/PycharmProjects/MyFirstProject/NLP/RNN案例——人名分类器/name_classfication.txt')
-    # train_dataloader = get_dataloader()
-    # for tensor_x,tensor_y in train_dataloader:
-    #     print(f'{tensor_x}')
-    #     print(f'{tensor_x.shape}')
-    #     print(f'{tensor_y}')
-    #     break
-    # input_size = 57
-    # hidden_size = 128
-    # output_size = 18
-    # model = NameRNN(input_size,hidden_size,output_size)
-    # model = NameLSTM(input_size, hidden_size, output_size)
-    # model = NameGRU(input_size, hidden_size, output_size)
-    # print(model)
-    # for x,y in train_dataloader:
-    #     # x.shape [batch_size,seq_len,input_size],batch_size = 1
-    #     h0 = model.init_hidden()
-    #     output,hn = model(x[0],h0)
-    #     break
-    # train_rnn()
-    # train_lstm()
-    # train_gru()
-    # compare_rnns()
-    # result = name2tensor(x='python')
-    # print(result)
-    # rnn_predict(x='java')
-    # lstm_predict(x='kris')
+    my_list_x,my_list_y = read_data(filepath='E:/PycharmProjects/MyFirstProject/NLP/RNN案例——人名分类器/name_classfication.txt')
+    train_dataloader = get_dataloader()
+    for tensor_x,tensor_y in train_dataloader:
+        print(f'{tensor_x}')
+        print(f'{tensor_x.shape}')
+        print(f'{tensor_y}')
+        break
+    input_size = 57
+    hidden_size = 128
+    output_size = 18
+    model = NameRNN(input_size,hidden_size,output_size)
+    model = NameLSTM(input_size, hidden_size, output_size)
+    model = NameGRU(input_size, hidden_size, output_size)
+    print(model)
+    for x,y in train_dataloader:
+        # x.shape [batch_size,seq_len,input_size],batch_size = 1
+        h0 = model.init_hidden()
+        output,hn = model(x[0],h0)
+        break
+    train_rnn()
+    train_lstm()
+    train_gru()
+    compare_rnns()
+    result = name2tensor(x='python')
+    print(result)
+    rnn_predict(x='java')
+    lstm_predict(x='kris')
     gru_predict(x='coke')
