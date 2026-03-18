@@ -123,7 +123,7 @@ h_t = tanh(Wx_t + Uh_{t-1})
 
 ### 🔹 Loss 对比
 
-![Loss](./assets/ai23_avg_loss.png)
+https://github.com/caosheng-hub/name-classifier-rnn/blob/main/ai23_avg_loss.png
 
 👉 结论：
 
@@ -134,7 +134,7 @@ h_t = tanh(Wx_t + Uh_{t-1})
 
 ### 🔹 Accuracy 对比
 
-![Accuracy](./assets/ai23_avg_acc.png)
+https://github.com/caosheng-hub/name-classifier-rnn/blob/main/ai23_avg_acc.png
 
 👉 结论：
 
@@ -146,7 +146,7 @@ h_t = tanh(Wx_t + Uh_{t-1})
 
 ### 🔹 训练时间
 
-![Time](./assets/ai23_time.png)
+https://github.com/caosheng-hub/name-classifier-rnn/blob/main/ai23_time.png
 
 👉 结论：
 
