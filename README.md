@@ -3,7 +3,7 @@
 
 ```markdown id="resume_pro_readme"
 # 🚀 NLP Sequence Modeling Benchmark  
-### RNN vs LSTM vs GRU vs Transformer（人名分类任务）
+### RNN vs LSTM vs GRU （人名分类任务）
 
 > ⭐ 一个从 0 到 1 手写实现多种序列模型，并进行系统性对比实验的 NLP 项目  
 > 👉 重点体现：**模型理解 + 工程能力 + 实验分析能力**
@@ -50,6 +50,9 @@
 ├── LICENSE
 ├── .gitignore
 ├── name_classfication.txt
+├── ai23_avg_acc.png
+├── ai23_avg_loss.png
+├── ai23_time.png
 
 ````
 
