@@ -42,17 +42,18 @@
 
 ```
 
+```bash
 .
 ├── RNN案例——人名分类器.py     # 模型定义
 ├── demo.py                   # 训练入口（统一控制实验）
 ├── requirements.txt
-├── README.md
 ├── LICENSE
 ├── .gitignore
 ├── name_classfication.txt
 ├── ai23_avg_acc.png
 ├── ai23_avg_loss.png
 ├── ai23_time.png
+└── README.md
 
 ````
 
